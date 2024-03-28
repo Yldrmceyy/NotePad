@@ -24,6 +24,7 @@ public class Main {
             FileWriter fWriter = new FileWriter(file, true);
             BufferedWriter bWriter = new BufferedWriter(fWriter);
 
+            // Prompt the user to enter text
             Scanner scanner = new Scanner(System.in);
             System.out.println("Bir Metin Giriniz: ");
             String text = scanner.nextLine();
